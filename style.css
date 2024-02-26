@@ -1,0 +1,119 @@
+.inline-block {
+    display: inline-block; 
+    vertical-align: top;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    margin-right:auto
+    
+}
+
+
+nav {
+    width: 73%;
+   padding: 1%;
+   margin-left: auto;
+}
+
+.inline-block ul {
+    width: 50%;
+    margin-left: auto;
+    font-size: 28px;
+
+}
+
+img {
+    size: a;
+}
+
+.heroImg { 
+    height: auto;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.flexContainer {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap:20px;
+    justify-content: space-evenly;
+} 
+
+.flexContainer img {
+    width: 100px; 
+    height: auto; 
+}
+
+.skillItem {
+    width: 30%; 
+    margin: 0 1%;
+    padding: 20px; 
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; 
+    height: auto;
+    padding: 25px;
+ 
+}
+
+.workItem img {
+    width: 100%;
+    height: auto; 
+}
+
+.mywork h3 {
+   align-items: center;
+}
+
+footer {
+    
+    background-color: #373738; 
+    padding: 20px; 
+    text-align: center;
+}
+
+
+footer ul {
+    display: inline-block; 
+    vertical-align: top; 
+}
+
+footer li {
+    padding: 0 10px; 
+}
+
+@media screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .flexContainer img {
+        width: 80px;
+    }
+
+    .workGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15;
+        padding:15px;
+    }
+    .workItem img {
+        width: 100%; 
+    }
+}
